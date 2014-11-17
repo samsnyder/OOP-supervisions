@@ -1,8 +1,29 @@
 
 public class Main {
 	public static void main(String[] args){
-		Stack stack = new Stack();
-		stack.push(5);
+		// Primitives
+		int x = 5;
+		
+		// References
+		Integer y;
+		
+		// Objects
+		Table myTable = new Table(10, 15);
+	}
+	
+	// Classes
+	static class Table {
+		int mWidth;
+		int mHeight;
+		
+		Table(int width, int height){
+			mWidth = width;
+			mHeight = height;
+		}
+		
+		void printSizes(){
+			System.out.println(mWidth + "x" + mHeight);
+		}
 	}
 	
 	static void addVector(){
