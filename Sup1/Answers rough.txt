@@ -1,0 +1,7 @@
+1.	In functional languages once you declare a variable/value, you cannot change it. You can only reassign the value by declaring it again.
+
+In functional languages, for any given input paramaters, you would get the same output every time. i.e. the output does not depend on machine state, time, operating system etc.
+
+Functional languages are able to optimise tail recursion. This makes recursion much more efficient and is used as oppose to loops.
+
+6.	This doesn't work because in vectorAdd, x and y are local variables in that frame. So when they are set, they are completely separate to a and b in main.
