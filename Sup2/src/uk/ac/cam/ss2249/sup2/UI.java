@@ -6,7 +6,7 @@ public class UI {
 	private Engine e;
 	private Scanner sc = new Scanner(System.in);
 	
-	UI(){
+	public UI(){
 		e = new Engine();
 		System.out.println("Welcome to HiLo!");
 	}
